@@ -1,0 +1,17 @@
+{
+  "checked_date": "2026-11-09",
+  "files": [
+    {
+      "path": "data/published_summary/biopsy_phenotype_summaries.csv",
+      "bytes": 641,
+      "sha256": "6a62f8f1fdf521616c184a8a11e1644227326a5d9034ccd9073fe91f87edec46",
+      "role": "transcribed published summary"
+    },
+    {
+      "path": "data/published_summary/diagnostic_performance.csv",
+      "bytes": 696,
+      "sha256": "0426436e62e14f17ccaf9d54b67938de652ef674c45426da1f95bc74dff6af22",
+      "role": "transcribed published summary"
+    }
+  ]
+}

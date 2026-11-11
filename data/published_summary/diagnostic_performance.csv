@@ -1,0 +1,5 @@
+rule,source_label,fraction_cutoff_percent,absolute_cutoff_copies_ml,sensitivity_percent,specificity_percent,ppv_percent,npv_percent,n_rejection,n_nonrejection,source_doi,source_table
+Fraction alone,dd-cfDNA Fraction,1.08,,93.33,91.43,82.35,96.97,15,35,10.3390/diagnostics15030237,Table 3; denominators Table 1
+Absolute alone,dd-cfDNA copy number,,32,80,71.43,54.55,89.29,15,35,10.3390/diagnostics15030237,Table 3; denominators Table 1
+Either positive (OR),Double-negative,1.08,32,100,65.71,55.56,100,15,35,10.3390/diagnostics15030237,Table 3; denominators Table 1
+Both positive (AND),Double-positive,1.08,32,73.33,97.14,91.67,89.47,15,35,10.3390/diagnostics15030237,Table 3; denominators Table 1

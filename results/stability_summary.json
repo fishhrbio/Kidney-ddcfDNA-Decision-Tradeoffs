@@ -1,0 +1,14 @@
+{
+  "evidence": "hypothetical design grid, not patient observations",
+  "error_model": "bounded additive errors on log fraction and log total cfDNA; calculated D shares fraction error",
+  "high_boundary": "greater than or equal; illustrative convention, not asserted for all assays",
+  "bounds_are": "illustrative natural-log half-widths, not validated assay CVs",
+  "grid_points": 100,
+  "stable_counts_by_bound": {
+    "0.0": 25,
+    "0.05": 16,
+    "0.1": 12,
+    "0.2": 6
+  },
+  "molecular_analysis_status": "not run: matched clinical and molecular dataset unavailable"
+}

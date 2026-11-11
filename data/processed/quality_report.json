@@ -1,0 +1,19 @@
+{
+  "input_rule_rows": 4,
+  "included_rule_rows": 4,
+  "input_phenotype_rows": 6,
+  "included_phenotype_rows": 6,
+  "excluded_rows": 0,
+  "duplicate_rule_keys": 0,
+  "duplicate_phenotype_keys": 0,
+  "missing_diagnostic_cells": 2,
+  "missing_phenotype_cells": 4,
+  "missingness": "Two inapplicable cutoffs; four unreported TCMR quartiles (n=1). No imputation.",
+  "recipients": 50,
+  "rejection": 15,
+  "comparator": 35,
+  "rejection_prevalence_percent": 30,
+  "unit": "One rule or phenotype summary, never a patient",
+  "patient_level_QC": "Not assessable",
+  "source_hashes_verified": true
+}

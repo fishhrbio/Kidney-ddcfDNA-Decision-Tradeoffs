@@ -1,0 +1,5 @@
+rule,TP,FN,TN,FP,n_rejection,n_nonrejection,provenance,source_doi,source_table,sensitivity_percent,specificity_percent,ppv_percent,npv_percent
+Fraction alone,14,1,32,3,15,35,reconstructed from published summaries,10.3390/diagnostics15030237,Table 3; denominators Table 1,93.33333333,91.42857143,82.35294118,96.96969697
+Absolute alone,12,3,25,10,15,35,reconstructed from published summaries,10.3390/diagnostics15030237,Table 3; denominators Table 1,80.00000000,71.42857143,54.54545455,89.28571429
+Either positive (OR),15,0,23,12,15,35,reconstructed from published summaries,10.3390/diagnostics15030237,Table 3; denominators Table 1,100.00000000,65.71428571,55.55555556,100.00000000
+Both positive (AND),11,4,34,1,15,35,reconstructed from published summaries,10.3390/diagnostics15030237,Table 3; denominators Table 1,73.33333333,97.14285714,91.66666667,89.47368421

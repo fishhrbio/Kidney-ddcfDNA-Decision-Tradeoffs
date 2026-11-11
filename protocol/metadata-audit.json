@@ -1,0 +1,64 @@
+{
+  "accession": "GSE305222",
+  "audit_date": "2026-11-10",
+  "samples": 604,
+  "characteristic_fields": {
+    "disease subgroup": {
+      "ABMR": 140,
+      "Normal": 312,
+      "pTCMR": 9,
+      "cAKI": 50,
+      "Mixed": 34,
+      "TCMR": 28,
+      "pABMR": 31
+    },
+    "in 300? (yes, no)": {
+      "yes": 297,
+      "no": 306,
+      "": 1
+    },
+    "in 280? (yes, no)": {
+      "yes": 277,
+      "no": 326,
+      "": 1
+    }
+  },
+  "all_sample_keys": [
+    "!Sample_channel_count",
+    "!Sample_characteristics_ch1",
+    "!Sample_contact_address",
+    "!Sample_contact_city",
+    "!Sample_contact_country",
+    "!Sample_contact_department",
+    "!Sample_contact_email",
+    "!Sample_contact_institute",
+    "!Sample_contact_laboratory",
+    "!Sample_contact_name",
+    "!Sample_contact_zip/postal_code",
+    "!Sample_data_processing",
+    "!Sample_data_row_count",
+    "!Sample_extract_protocol_ch1",
+    "!Sample_geo_accession",
+    "!Sample_hyb_protocol",
+    "!Sample_label_ch1",
+    "!Sample_label_protocol_ch1",
+    "!Sample_last_update_date",
+    "!Sample_molecule_ch1",
+    "!Sample_organism_ch1",
+    "!Sample_platform_id",
+    "!Sample_scan_protocol",
+    "!Sample_source_name_ch1",
+    "!Sample_status",
+    "!Sample_submission_date",
+    "!Sample_supplementary_file",
+    "!Sample_taxid_ch1",
+    "!Sample_title",
+    "!Sample_treatment_protocol_ch1",
+    "!Sample_type"
+  ],
+  "paired_fraction_absolute_in_characteristics": false,
+  "patient_ids_in_characteristics": false,
+  "clinical_covariates_in_characteristics": false,
+  "scope": "Direct inspection of complete series-matrix metadata header plus one sample record; supplemental expression matrix and article supplementary files not fully inspected.",
+  "metadata_sha256": "7b5dc1f19def46703b42c7c48022cbdea5bf2ee267ac83c6c8daa0cdec4e33ba"
+}

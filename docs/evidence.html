@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kidney dd-cfDNA | Diagnostic decision tradeoffs</title>
+<meta name="description" content="Explore how four kidney dd-cfDNA diagnostic rules change missed rejections and false positives in one published 50-recipient cohort.">
+<style>
+:root{--ink:#172f3e;--muted:#50616c;--paper:#f6f5f0;--line:#d9dfde;--blue:#176b87;--orange:#a95e1b;--soft:#edf3f4}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}a{color:var(--blue);text-underline-offset:3px}a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--orange);outline-offset:4px}header,main,footer{max-width:1060px;margin:auto;padding:24px}header{padding-top:55px;padding-bottom:15px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.14em;font-weight:750;color:var(--blue)}h1{font-size:clamp(32px,5vw,54px);line-height:1.12;letter-spacing:-.035em;max-width:860px;margin:15px 0 22px}h2{font-size:26px;line-height:1.25;margin:0 0 16px}h3{font-size:19px;margin:0 0 12px}p{margin:0 0 17px}.lead{max-width:800px;color:var(--muted);font-size:20px}.tag{display:inline-block;font-size:12px;font-weight:650;padding:4px 10px;border:1px solid var(--line);border-radius:4px;margin:0 6px 7px 0}.section{border-top:1px solid var(--line);padding:30px 0}.context{padding:20px 24px;background:#fff;border-left:4px solid var(--blue);font-size:15px}.context p:last-child{margin-bottom:0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{padding:22px;background:#fff;border:1px solid var(--line);border-radius:6px}.label{color:var(--muted);font-size:14px}.big{font-size:42px;line-height:1.2;font-weight:700;margin:12px 0}.big small{font-size:20px;font-weight:400;color:var(--muted)}.bar{height:13px;background:var(--soft);margin:15px 0}.bar span{height:100%;display:block;background:var(--blue)}.bar.orange span{background:var(--orange)}.quiet{font-size:14px;color:var(--muted)}select{padding:10px 13px;font:inherit;background:white;border:1px solid #778c98;border-radius:4px;max-width:100%;margin:8px 0 22px;min-width:270px}label{display:block;font-weight:650}#explanation{background:var(--soft);padding:18px 22px;margin-top:18px}.tablewrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px;text-align:left}th,td{padding:12px 10px;border-bottom:1px solid var(--line);white-space:nowrap}thead{background:var(--soft)}tbody tr.selected{background:#e5eff1;font-weight:650}button{font:inherit;padding:10px 16px;color:white;background:var(--ink);border:0;border-radius:4px;cursor:pointer}fieldset{border:1px solid var(--line);padding:20px;margin:0 0 18px}legend{font-weight:650;padding:0 7px}.choice{font-size:16px;font-weight:400;margin:9px 0;display:flex;align-items:flex-start;gap:9px}.choice input{margin-top:7px}#answer{margin-top:17px;font-weight:650}details{background:#fff;border:1px solid var(--line);padding:15px 18px;margin:12px 0}summary{font-weight:650;cursor:pointer}details p{margin:12px 0 0}.steps li{margin-bottom:12px}footer{border-top:1px solid var(--line);font-size:13px;color:var(--muted);padding-bottom:40px}@media(max-width:650px){.grid{grid-template-columns:1fr}header,main,footer{padding-left:18px;padding-right:18px}header{padding-top:30px}.big{font-size:36px}th,td{padding:9px 7px}}@media print{body{background:white}button,select,fieldset{display:none}header{padding-top:0}.section{break-inside:avoid}}
+</style>
+<link rel="stylesheet" href="walkthrough.css"></head>
+<body><a class="skip" href="#content">Skip to content</a><nav class="journey" aria-label="Project walkthrough"><a class="brand" href="index.html">Kidney dd-cfDNA<span>Evidence → uncertainty → validation</span></a><ol><li><a href="index.html"><span>01</span>The question</a></li><li><a href="evidence.html" aria-current="page"><span>02</span>Published evidence</a></li><li><a href="stability.html"><span>03</span>Explore uncertainty</a></li><li><a href="roadmap.html"><span>04</span>The next study</a></li></ol></nav>
+<header>
+<div class="eyebrow">02 / Published clinical summaries</div>
+<h1>Two measurements.<br>Four rules. Different errors.</h1>
+<p class="lead">Explore what happens when fractional and absolute donor-derived cell-free DNA must agree. A worked example from one published 50-recipient biopsy cohort.</p>
+<span class="tag">15 rejection recipients</span><span class="tag">35 comparator recipients</span><span class="tag">Aggregate reconstruction</span>
+</header>
+<main id="content">
+<p class="context"><strong>Integrated research project:</strong> this page reconstructs published clinical summaries. Explore the new <a href="stability.html">classification-stability module</a> to see hypothetical uncertainty scenarios and the molecular-validation framework.</p>
+<aside class="context" aria-label="About this project">
+<p><strong>About this project.</strong> This educational companion to a narrative review on kidney-transplant dd-cfDNA interpretation explores a practical question: how does combining fractional and absolute measurements change diagnostic errors?</p>
+<p>The evidence comes from <a href="https://doi.org/10.3390/diagnostics15030237">Nie et al. (2025)</a>. The guide translates published summary statistics into a comparison of four rules, with explanations of their biological context and limits.</p>
+</aside>
+<section class="section" aria-labelledby="explore-heading">
+<div class="eyebrow">01 / Make a prediction, then explore</div>
+<h2 id="explore-heading">What does a stricter positive rule change?</h2>
+<p>Before selecting AND, predict the direction of both errors. All four rules use the same cohort. Study-selected cutoffs: fraction 1.08%; absolute 32 copies/mL.</p>
+<label for="rule">Choose a published rule</label>
+<select id="rule"><option value="0">Fraction alone</option><option value="1">Absolute alone</option><option value="2">Either positive (OR)</option><option value="3">Both positive (AND)</option></select>
+<div id="metrics" aria-live="polite" aria-atomic="true">
+<div class="grid">
+<div class="card"><h3>Missed rejections</h3><div class="label">False negatives / 15 rejection recipients</div><div class="big" id="fn">1 <small>/ 15</small></div><div class="bar" aria-hidden="true"><span id="fn-bar" style="width:6.6667%"></span></div><div id="sensitivity">Sensitivity: 93.33% (14/15 detected)</div></div>
+<div class="card"><h3>False positives</h3><div class="label">Positive results / 35 comparator recipients</div><div class="big" id="fp">3 <small>/ 35</small></div><div class="bar orange" aria-hidden="true"><span id="fp-bar" style="width:8.5714%"></span></div><div id="specificity">Specificity: 91.43% (32/35 negative)</div></div>
+</div>
+<div id="explanation">Fraction alone misses 1 rejection and produces 3 false positives in this cohort.</div>
+</div>
+<p class="quiet" style="margin-top:15px">Bars show the error proportion within each group, whose denominators differ. These are reconstructed aggregate counts, not patient records. No clinical error costs are assigned.</p>
+<div class="tablewrap"><table><caption style="text-align:left;margin:8px 0">The same cohort, compared four ways</caption><thead><tr><th scope="col">Rule</th><th scope="col">Missed /15</th><th scope="col">False + /35</th><th scope="col">Sensitivity</th><th scope="col">Specificity</th><th scope="col">PPV</th><th scope="col">NPV</th></tr></thead><tbody id="comparison"><tr><td>Fraction alone</td><td>1</td><td>3</td><td>93.33%</td><td>91.43%</td><td>82.35%</td><td>96.97%</td></tr><tr><td>Absolute alone</td><td>3</td><td>10</td><td>80.00%</td><td>71.43%</td><td>54.55%</td><td>89.29%</td></tr><tr><td>Either positive (OR)</td><td>0</td><td>12</td><td>100.00%</td><td>65.71%</td><td>55.56%</td><td>100.00%</td></tr><tr><td>Both positive (AND)</td><td>4</td><td>1</td><td>73.33%</td><td>97.14%</td><td>91.67%</td><td>89.47%</td></tr></tbody></table></div>
+<p class="quiet">PPV = TP/(TP+FP); NPV = TN/(TN+FN). Both depend on the cohort's 30% rejection prevalence. The study's “double-negative” method calls negative only if both tests are negative: its positive rule is OR.</p>
+<noscript><p>JavaScript is disabled. The table above contains every result; interactive controls require JavaScript.</p></noscript>
+</section>
+<section class="section" aria-labelledby="quiz-heading"><div class="eyebrow">02 / Check the interpretation</div><h2 id="quiz-heading">Did AND improve every outcome?</h2>
+<fieldset><legend>Compared with fraction alone, AND produced:</legend>
+<label class="choice"><input type="radio" name="quiz" value="a">Fewer false positives and fewer missed rejections.</label>
+<label class="choice"><input type="radio" name="quiz" value="b">Fewer false positives and more missed rejections.</label>
+<label class="choice"><input type="radio" name="quiz" value="c">The same error counts, with a higher NPV.</label>
+</fieldset><button id="check" type="button">Check my answer</button><div id="answer" role="status"></div>
+<p class="quiet" style="margin-top:12px">Your choice stays in this page; no analytics, accounts, or answer storage.</p>
+</section>
+<section class="section" aria-labelledby="biology-heading"><div class="eyebrow">03 / Connect the arithmetic to biology</div><h2 id="biology-heading">Why two measurements can disagree</h2>
+<details open><summary>Fraction and concentration have different denominators</summary><p>Fraction is donor-derived cfDNA as a percentage of total cfDNA. Recipient-derived cfDNA can change the total denominator. A changing fraction does not necessarily imply proportional change in donor-derived concentration.</p><p>In this study, donor fraction came from a targeted 441-SNP sequencing assay; total cfDNA was quantified by qPCR. Absolute dd-cfDNA was calculated as total cfDNA × donor fraction (as a proportion). The two readouts are mathematically linked.</p></details>
+<details><summary>Mathematical coupling is not mechanistic proof</summary><p>Calibration, collection and processing, non-rejection injury, and phenotype composition can contribute to discordance. The published summaries do not identify a patient's mechanism. Dividing group medians does not recover patient-level total cfDNA.</p></details>
+<details><summary>Who counts as “rejection” matters</summary><p>The source defines 14 ABMR/mixed cases and 1 TCMR case as rejection. Its 35 comparators include 6 borderline TCMR, 4 BK virus nephropathy (BKVN), 12 IgAN/FSGS, and 13 other cases. Comparator does not mean healthy graft. With a single TCMR case, generalization across rejection phenotypes is limited.</p></details>
+<details><summary>100% observed sensitivity does not mean certainty</summary><p>OR detected 15/15 rejection cases and had 23/23 true negatives among its negative results. Small denominators, cutoffs selected in the same cohort, and absent external validation remain important. These results do not demonstrate that a test can safely replace biopsy.</p></details>
+</section>
+<section class="section"><div class="eyebrow">04 / Understand the result</div><h2>What this analysis accomplishes</h2><ol class="steps"><li><strong>Makes errors tangible.</strong> Percentages become counts: AND avoids two false positives but misses three additional rejections compared with fraction alone.</li><li><strong>Checks the arithmetic.</strong> Uniquely reconstructed counts reproduce all 16 reported rates, satisfy AND/OR set relationships, and remain unchanged across three rounding tolerances.</li><li><strong>Connects measurement to biology.</strong> Fraction and absolute concentration provide related views of donor-derived DNA; agreement does not make either a direct explanation of injury.</li><li><strong>Defines the evidence boundary.</strong> One small cohort with study-selected cutoffs cannot establish a universal rule or replace independent clinical validation.</li></ol><p>Original evidence: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11817499/">Nie et al., Tables 1–3 and methods</a>. The project also includes an executed notebook, source summaries, and explanatory figures.</p></section>
+<div class="page-turn"><a href="index.html">← Previous step</a><a class="primary" href="stability.html">Now test classification stability →</a></div></main>
+<footer><p>Original evidence: Nie W. et al. <em>Diagnostics</em> 2025;15(3):237. <a href="https://doi.org/10.3390/diagnostics15030237">DOI: 10.3390/diagnostics15030237</a>. Tables transcribed and counts reconstructed; source tables licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Original project code: MIT.</p><p>Educational companion based on published aggregate statistics. Not a patient-care calculator; no independent clinical validation or individual patient data.</p></footer>
+<script src="results.js"></script>
+<script>
+'use strict';
+const select=document.getElementById('rule');
+const notes=[
+'Fraction alone misses 1 rejection and produces 3 false positives in this cohort.',
+'Absolute alone misses 3 rejections and produces 10 false positives. Relative to fraction alone: 2 additional misses and 7 additional false positives.',
+'OR detects all 15 observed rejection cases but produces 12 false positives. Relative to fraction alone: 1 fewer miss and 9 additional false positives. This is the study’s double-negative strategy expressed as a positive rule.',
+'AND misses 4 rejections and produces 1 false positive. Relative to fraction alone: 3 additional misses and 2 fewer false positives. A higher PPV accompanies lower sensitivity.'
+];
+function update(){
+ if(!Array.isArray(window.RESULTS)||window.RESULTS.length!==4){document.getElementById('explanation').textContent='Interactive data unavailable. Use the complete static comparison table below.';return;}
+ const index=Number(select.value),r=window.RESULTS[index],pct=v=>v.toFixed(2)+'%';
+ document.getElementById('fn').innerHTML=r.FN+' <small>/ 15</small>';
+ document.getElementById('fp').innerHTML=r.FP+' <small>/ 35</small>';
+ document.getElementById('fn-bar').style.width=(100*r.FN/15)+'%';
+ document.getElementById('fp-bar').style.width=(100*r.FP/35)+'%';
+ document.getElementById('sensitivity').textContent='Sensitivity: '+pct(r.sensitivity_percent)+' ('+r.TP+'/15 detected)';
+ document.getElementById('specificity').textContent='Specificity: '+pct(r.specificity_percent)+' ('+r.TN+'/35 negative)';
+ document.getElementById('explanation').textContent=notes[index];
+ const body=document.getElementById('comparison');body.replaceChildren();
+ window.RESULTS.forEach((v,i)=>{const tr=document.createElement('tr');if(i===index)tr.className='selected';
+ [v.rule,v.FN,v.FP,pct(v.sensitivity_percent),pct(v.specificity_percent),pct(v.ppv_percent),pct(v.npv_percent)].forEach(value=>{const td=document.createElement('td');td.textContent=value;tr.appendChild(td);});body.appendChild(tr);});
+}
+select.addEventListener('change',update);update();
+document.getElementById('check').addEventListener('click',()=>{const checked=document.querySelector('input[name="quiz"]:checked');document.getElementById('answer').textContent=!checked?'Choose an answer first.':(checked.value==='b'?'Correct. ':'Try again. ')+'AND reduced false positives from 3 to 1 and increased missed rejections from 1 to 4. No rule is shown to improve every outcome.';});
+</script>
+</body></html>

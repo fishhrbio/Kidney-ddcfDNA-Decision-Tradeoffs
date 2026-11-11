@@ -1,0 +1,7 @@
+phenotype,n,fraction_median_percent,fraction_q1_percent,fraction_q3_percent,absolute_median_copies_ml,absolute_q1_copies_ml,absolute_q3_copies_ml,source_doi,source_table
+ABMR and mixed,14,2.1,1.28,2.36,43.73,31.02,79.4,10.3390/diagnostics15030237,Table 2
+TCMR,1,0.5,,,557.55,,,10.3390/diagnostics15030237,Table 2
+Borderline TCMR,6,0.33,0.13,0.59,22.72,8.85,33.47,10.3390/diagnostics15030237,Table 2
+BKVN,4,0.51,0.34,1.1,29.56,10.14,104.07,10.3390/diagnostics15030237,Table 2
+IgAN/FSGS,12,0.49,0.4,0.95,14.42,7.17,48.32,10.3390/diagnostics15030237,Table 2
+Other no rejection,13,0.37,0.27,0.54,12.08,6.1,32,10.3390/diagnostics15030237,Table 2
